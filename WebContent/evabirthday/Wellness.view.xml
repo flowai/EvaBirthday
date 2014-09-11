@@ -1,0 +1,24 @@
+<mvc:View height="100%" xmlns:mvc="sap.ui.core.mvc" xmlns:l="sap.ui.layout"
+	controllerName="evabirthday.Wellness" xmlns="sap.m">
+	<Page title="Spa Deluxe" class="marginBoxContent" showNavButton="true"
+		navButtonPress="navButtonP">
+		<content>
+			<l:VerticalLayout>
+				<l:HorizontalLayout>
+					<Text text="Pause vom Alltag!"></Text>
+				</l:HorizontalLayout>
+				<VBox>
+					<Text
+						text="Was brauchen gestresste Evas...? Richtig, eine Pause vom Trott des täglichen Lebens. Diese Option bietet Ihnen einen Tag in einem der Saunaptempel im näheren Umkreis. Die Wahl fällt entweder auf die vor der Haustür der Wahl-Pfälzer gelegenen Lokation Monte-Mare, oder auf die nahe der französischen Grenze gelegene Lokation Saarland Therme. Bei für Sie freien Eintritt können Sie die Sauna- und Spalandschaft genießen, bevor es, nach einem relaxten Tag im Planschbecken, ein Abendessen in einem der bevorzugten Restaurants der Metropolregionen, Kaiserslautern, oder Saarbrücken zu einem Abendessen für Zwei geht. Nach dem Abendessen lassen Sie mit ihrem Begleiter den Tag ausklingen..." />
+				</VBox>
+				<Toolbar></Toolbar>
+				<l:HorizontalLayout>
+					<Image src="evabirthday\monte-mare.png"></Image>
+					<Image src="evabirthday\saarland-therme.png"></Image>
+				</l:HorizontalLayout>
+			</l:VerticalLayout>
+		</content>
+		<footer>
+		</footer>
+	</Page>
+</mvc:View>

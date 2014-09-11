@@ -1,0 +1,23 @@
+<mvc:View height="100%" controllerName="evabirthday.InitialView"
+	xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<Page title="Eva's Birthday Gifts" showHeader="true"
+		enableScrolling="false">
+		<TileContainer id="container" tileDelete="handleTileDelete">
+			<StandardTile id="OptionA" title="Option A" info="Spa Deluxe"
+				type="Monitor" icon="sap-icon://pool" press="handleWellnessPress" />
+			<StandardTile id="OptionB" title="Option B" info="Shopping Manifique"
+				type="Monitor" icon="sap-icon://cart-4" press="handleShoppingPress" />
+		</TileContainer>
+		<Label id="choose" text="" />
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer />
+				<Button id="pressMe" press="pressMe" text="pressMe!"/>
+				<SegmentedButton selectedButton="pool" class="marginOnlyTop">
+					<Button icon="sap-icon://pool" id="pool" press="acceptedWellness"/>
+					<Button icon="sap-icon://cart-4" id="cart-4" press="acceptedShopping"/>
+				</SegmentedButton>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

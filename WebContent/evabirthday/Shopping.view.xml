@@ -1,0 +1,23 @@
+<mvc:View height="100%" xmlns:mvc="sap.ui.core.mvc"
+	controllerName="evabirthday.Shopping" xmlns:l="sap.ui.layout" xmlns="sap.m">
+	<Page title="Shopping Manifique" class="marginBoxContent"
+		showNavButton="true" navButtonPress="navButtonP">
+		<content>
+			<l:VerticalLayout>
+
+				<Text text="Neue Kleider braucht die Eva!"></Text>
+				<VBox>
+					<Text
+						text="Diese Option bringt Sie an den Place-to-be des Shoppings im näheren Umkreis, den Style Outlets Zweibrücken. Ihr liebevoller Begleiter begleitet Sie nach einem reichaltigen Frühstück in das Mode Paradies und steht Ihnen mit Rat und Armen zur Seite, während Sie die Modetrends des kommenden Winters begutachten. Weiterhin werden Sie mit einem finanziellen Obulus von 50€ ausgestattet, der für Ihre neue Kleidung, vorzugsweise Dessous, investiert werden kann. Nachdem die Einkaufstour zu Ihrer Zufriedenheit beendet und Ihr Begleiter unter der Last ihrer Einkäufe zusammengebrochen ist, lassen Sie den Abend zu Zweit ausklingen..." />
+				</VBox>
+				<Toolbar></Toolbar>
+				<l:HorizontalLayout>
+					<Image src="evabirthday\logo-zweibrucken.png"></Image>
+				</l:HorizontalLayout>
+			</l:VerticalLayout>
+
+		</content>
+		<footer>
+		</footer>
+	</Page>
+</mvc:View>
